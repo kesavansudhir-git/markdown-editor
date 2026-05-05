@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* matches --breakpoint-mobile in global.css */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+}

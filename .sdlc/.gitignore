@@ -1,0 +1,2 @@
+# Gate flag files are transient state — not committed
+.gate-*

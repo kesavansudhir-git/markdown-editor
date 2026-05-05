@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+  height: 3rem;
+  background: #1e1e2e;
+  border-bottom: 1px solid #313244;
+  flex-shrink: 0;
+}
+
+.title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #cdd6f4;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fileMenu {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
+
+.menuBtn {
+  padding: 0.25rem 0.625rem;
+  border: 1px solid #45475a;
+  border-radius: 0.25rem;
+  background: transparent;
+  color: #cdd6f4;
+  font-size: 0.8125rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.menuBtn:hover {
+  background: #313244;
+  border-color: #6c7086;
+}
+
+.menuBtn:active {
+  background: #45475a;
+}
+
+.closeBtn {
+  border-color: #f38ba8;
+  color: #f38ba8;
+}
+
+.closeBtn:hover {
+  background: #3d1a22;
+  border-color: #f38ba8;
+  color: #f38ba8;
+}

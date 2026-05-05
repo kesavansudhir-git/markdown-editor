@@ -1,0 +1,26 @@
+/*
+ * --breakpoint-mobile is a documentation token. CSS custom properties cannot be used
+ * inside @media expressions (browser limitation). The matching media query in
+ * App.module.css uses the same literal value — update both together.
+ * A future design system can read this via JS (getComputedStyle) or PostCSS.
+ */
+:root {
+  --breakpoint-mobile: 768px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}

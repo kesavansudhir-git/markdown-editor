@@ -1,0 +1,21 @@
+.pane {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  border-right: 1px solid #e5e7eb;
+}
+
+.textarea {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 1.25rem;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Menlo', monospace;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  border: none;
+  outline: none;
+  resize: none;
+  overflow-y: auto;
+  background: #fafafa;
+  color: #1f2937;
+}

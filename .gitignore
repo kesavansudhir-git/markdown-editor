@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Coverage reports
+coverage/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.DS_Store
+*.local
+
+# SDLC gate flags (transient state — not committed)
+.sdlc/.gate-*
+
+# Claude local settings (personal overrides)
+.claude/settings.local.json
